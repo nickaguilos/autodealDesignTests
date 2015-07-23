@@ -1,0 +1,262 @@
+/* line 5, ../sass/_responsivegrid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(/scripts/boxsizing.htc);
+  /*	If you need support for IE7 and lower make 
+  	sure the boxsizing.htc file is linked properly.
+  	More info here:  https://github.com/Schepp/box-sizing-polyfill */
+}
+
+/*	MAIN CONTAINER 
+	Set the width to whatever you want the width of your site to be. */
+/* line 18, ../sass/_responsivegrid.scss */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*	SELF CLEARING FLOATS - CLEARFIX METHOD */
+/* line 28, ../sass/_responsivegrid.scss */
+.container:after,
+.row:after,
+.col:after,
+.clr:after,
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 	DEFAULT ROW STYLES 
+	Set bottom padding according to preference */
+/* line 40, ../sass/_responsivegrid.scss */
+.row {
+  padding-bottom: 0em;
+}
+
+/* DEFAULT COLUMN STYLES */
+/* line 45, ../sass/_responsivegrid.scss */
+.col {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  /* line 53, ../sass/_responsivegrid.scss */
+  .gutters .col {
+    margin-left: 0;
+  }
+
+  /* line 57, ../sass/_responsivegrid.scss */
+  .gutters .col:first-child {
+    margin-left: 0;
+  }
+}
+/*	COLUMN WIDTH ON DISPLAYS +768px 
+	You might need to play with media queries here to suite your design. */
+@media (min-width: 700px) {
+  /* line 68, ../sass/_responsivegrid.scss */
+  .span_1 {
+    width: 8.33333333333%;
+  }
+
+  /* line 69, ../sass/_responsivegrid.scss */
+  .span_2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 70, ../sass/_responsivegrid.scss */
+  .span_3 {
+    width: 25%;
+  }
+
+  /* line 71, ../sass/_responsivegrid.scss */
+  .span_4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 72, ../sass/_responsivegrid.scss */
+  .span_5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 73, ../sass/_responsivegrid.scss */
+  .span_6 {
+    width: 50%;
+  }
+
+  /* line 74, ../sass/_responsivegrid.scss */
+  .span_7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 75, ../sass/_responsivegrid.scss */
+  .span_8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 76, ../sass/_responsivegrid.scss */
+  .span_9 {
+    width: 75%;
+  }
+
+  /* line 77, ../sass/_responsivegrid.scss */
+  .span_10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 78, ../sass/_responsivegrid.scss */
+  .span_11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 79, ../sass/_responsivegrid.scss */
+  .span_12 {
+    width: 100%;
+  }
+
+  /* line 81, ../sass/_responsivegrid.scss */
+  .gutters .span_1 {
+    width: 6.5%;
+  }
+
+  /* line 82, ../sass/_responsivegrid.scss */
+  .gutters .span_2 {
+    width: 15.0%;
+  }
+
+  /* line 83, ../sass/_responsivegrid.scss */
+  .gutters .span_3 {
+    width: 23.5%;
+  }
+
+  /* line 84, ../sass/_responsivegrid.scss */
+  .gutters .span_4 {
+    width: 32.0%;
+  }
+
+  /* line 85, ../sass/_responsivegrid.scss */
+  .gutters .span_5 {
+    width: 40.5%;
+  }
+
+  /* line 86, ../sass/_responsivegrid.scss */
+  .gutters .span_6 {
+    width: 49.0%;
+  }
+
+  /* line 87, ../sass/_responsivegrid.scss */
+  .gutters .span_7 {
+    width: 57.5%;
+  }
+
+  /* line 88, ../sass/_responsivegrid.scss */
+  .gutters .span_8 {
+    width: 66.0%;
+  }
+
+  /* line 89, ../sass/_responsivegrid.scss */
+  .gutters .span_9 {
+    width: 74.5%;
+  }
+
+  /* line 90, ../sass/_responsivegrid.scss */
+  .gutters .span_10 {
+    width: 83.0%;
+  }
+
+  /* line 91, ../sass/_responsivegrid.scss */
+  .gutters .span_11 {
+    width: 91.5%;
+  }
+
+  /* line 92, ../sass/_responsivegrid.scss */
+  .gutters .span_12 {
+    width: 100%;
+  }
+}
+/* line 4, ../sass/styles.scss */
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+
+@media (min-width: 1000px) {
+  /* line 13, ../sass/styles.scss */
+  .container {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background: blue;
+  }
+
+  /* line 20, ../sass/styles.scss */
+  #fold1 {
+    background: white;
+  }
+
+  /* line 24, ../sass/styles.scss */
+  #left1 {
+    width: 250px;
+    height: auto;
+    display: block;
+    position: relative;
+    right: -200px;
+    bottom: -190px;
+  }
+
+  /* line 33, ../sass/styles.scss */
+  #right1 {
+    margin-left: 50px;
+  }
+
+  /* line 37, ../sass/styles.scss */
+  .photoCentered {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  /* line 44, ../sass/styles.scss */
+  .shadow {
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+
+  /* line 49, ../sass/styles.scss */
+  #text1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+  }
+
+  /* line 56, ../sass/styles.scss */
+  #fold2 {
+    background: orange;
+  }
+
+  /* line 60, ../sass/styles.scss */
+  #left2 {
+    width: 200px;
+    height: auto;
+    margin-left: 180px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  /* line 68, ../sass/styles.scss */
+  #text2 {
+    max-width: 480px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
