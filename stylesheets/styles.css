@@ -36,10 +36,12 @@
 /* line 40, ../sass/_responsivegrid.scss */
 .row {
   padding-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* DEFAULT COLUMN STYLES */
-/* line 45, ../sass/_responsivegrid.scss */
+/* line 47, ../sass/_responsivegrid.scss */
 .col {
   display: block;
   float: left;
@@ -47,12 +49,12 @@
 }
 
 @media (min-width: 700px) {
-  /* line 53, ../sass/_responsivegrid.scss */
+  /* line 55, ../sass/_responsivegrid.scss */
   .gutters .col {
     margin-left: 0;
   }
 
-  /* line 57, ../sass/_responsivegrid.scss */
+  /* line 59, ../sass/_responsivegrid.scss */
   .gutters .col:first-child {
     margin-left: 0;
   }
@@ -60,203 +62,383 @@
 /*	COLUMN WIDTH ON DISPLAYS +768px 
 	You might need to play with media queries here to suite your design. */
 @media (min-width: 700px) {
-  /* line 68, ../sass/_responsivegrid.scss */
+  /* line 70, ../sass/_responsivegrid.scss */
   .span_1 {
     width: 8.33333333333%;
   }
 
-  /* line 69, ../sass/_responsivegrid.scss */
+  /* line 71, ../sass/_responsivegrid.scss */
   .span_2 {
     width: 16.6666666667%;
   }
 
-  /* line 70, ../sass/_responsivegrid.scss */
+  /* line 72, ../sass/_responsivegrid.scss */
   .span_3 {
     width: 25%;
   }
 
-  /* line 71, ../sass/_responsivegrid.scss */
+  /* line 73, ../sass/_responsivegrid.scss */
   .span_4 {
     width: 33.3333333333%;
   }
 
-  /* line 72, ../sass/_responsivegrid.scss */
+  /* line 74, ../sass/_responsivegrid.scss */
   .span_5 {
     width: 41.6666666667%;
   }
 
-  /* line 73, ../sass/_responsivegrid.scss */
+  /* line 75, ../sass/_responsivegrid.scss */
   .span_6 {
     width: 50%;
   }
 
-  /* line 74, ../sass/_responsivegrid.scss */
+  /* line 76, ../sass/_responsivegrid.scss */
   .span_7 {
     width: 58.3333333333%;
   }
 
-  /* line 75, ../sass/_responsivegrid.scss */
+  /* line 77, ../sass/_responsivegrid.scss */
   .span_8 {
     width: 66.6666666667%;
   }
 
-  /* line 76, ../sass/_responsivegrid.scss */
+  /* line 78, ../sass/_responsivegrid.scss */
   .span_9 {
     width: 75%;
   }
 
-  /* line 77, ../sass/_responsivegrid.scss */
+  /* line 79, ../sass/_responsivegrid.scss */
   .span_10 {
     width: 83.3333333333%;
   }
 
-  /* line 78, ../sass/_responsivegrid.scss */
+  /* line 80, ../sass/_responsivegrid.scss */
   .span_11 {
     width: 91.6666666667%;
   }
 
-  /* line 79, ../sass/_responsivegrid.scss */
+  /* line 81, ../sass/_responsivegrid.scss */
   .span_12 {
     width: 100%;
   }
 
-  /* line 81, ../sass/_responsivegrid.scss */
+  /* line 83, ../sass/_responsivegrid.scss */
   .gutters .span_1 {
     width: 6.5%;
   }
 
-  /* line 82, ../sass/_responsivegrid.scss */
+  /* line 84, ../sass/_responsivegrid.scss */
   .gutters .span_2 {
     width: 15.0%;
   }
 
-  /* line 83, ../sass/_responsivegrid.scss */
+  /* line 85, ../sass/_responsivegrid.scss */
   .gutters .span_3 {
     width: 23.5%;
   }
 
-  /* line 84, ../sass/_responsivegrid.scss */
+  /* line 86, ../sass/_responsivegrid.scss */
   .gutters .span_4 {
     width: 32.0%;
   }
 
-  /* line 85, ../sass/_responsivegrid.scss */
+  /* line 87, ../sass/_responsivegrid.scss */
   .gutters .span_5 {
     width: 40.5%;
   }
 
-  /* line 86, ../sass/_responsivegrid.scss */
+  /* line 88, ../sass/_responsivegrid.scss */
   .gutters .span_6 {
     width: 49.0%;
   }
 
-  /* line 87, ../sass/_responsivegrid.scss */
+  /* line 89, ../sass/_responsivegrid.scss */
   .gutters .span_7 {
     width: 57.5%;
   }
 
-  /* line 88, ../sass/_responsivegrid.scss */
+  /* line 90, ../sass/_responsivegrid.scss */
   .gutters .span_8 {
     width: 66.0%;
   }
 
-  /* line 89, ../sass/_responsivegrid.scss */
+  /* line 91, ../sass/_responsivegrid.scss */
   .gutters .span_9 {
     width: 74.5%;
   }
 
-  /* line 90, ../sass/_responsivegrid.scss */
+  /* line 92, ../sass/_responsivegrid.scss */
   .gutters .span_10 {
     width: 83.0%;
   }
 
-  /* line 91, ../sass/_responsivegrid.scss */
+  /* line 93, ../sass/_responsivegrid.scss */
   .gutters .span_11 {
     width: 91.5%;
   }
 
-  /* line 92, ../sass/_responsivegrid.scss */
+  /* line 94, ../sass/_responsivegrid.scss */
   .gutters .span_12 {
     width: 100%;
   }
 }
-/* line 4, ../sass/styles.scss */
+/* line 5, ../sass/styles.scss */
 body {
   margin: 0;
   width: 100%;
   height: 100%;
-  background: blue;
+  background: white;
 }
 
-@media (min-width: 1000px) {
-  /* line 13, ../sass/styles.scss */
-  .container {
-    width: 1000px;
-    height: auto;
+@media (min-width: 850px) {
+  /* line 18, ../sass/styles.scss */
+  .wrapper {
     margin: 0 auto;
-    background: blue;
   }
 
-  /* line 20, ../sass/styles.scss */
-  #fold1 {
-    background: white;
+  /* line 22, ../sass/styles.scss */
+  h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
   }
 
-  /* line 24, ../sass/styles.scss */
-  #left1 {
-    width: 250px;
-    height: auto;
-    display: block;
-    position: relative;
-    right: -200px;
-    bottom: -190px;
+  /* line 27, ../sass/styles.scss */
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
   }
 
-  /* line 33, ../sass/styles.scss */
-  #right1 {
-    margin-left: 50px;
+  /* line 32, ../sass/styles.scss */
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
   }
 
   /* line 37, ../sass/styles.scss */
-  .photoCentered {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-  }
-
-  /* line 44, ../sass/styles.scss */
-  .shadow {
-    margin-top: 10px;
-    margin-left: -20px;
-  }
-
-  /* line 49, ../sass/styles.scss */
-  #text1 {
+  .fontCentered {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 80px;
   }
 
-  /* line 56, ../sass/styles.scss */
-  #fold2 {
-    background: orange;
+  /* line 41, ../sass/styles.scss */
+  .centered {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 46, ../sass/styles.scss */
+  #content1 {
+    width: 300px;
+    position: relative;
+    right: -100px;
+    padding-top: 140px;
+  }
+
+  /* line 53, ../sass/styles.scss */
+  #iphonePhoto1 {
+    width: 300px;
+    position: relative;
+    margin-bottom: -5px;
+    left: -100px;
   }
 
   /* line 60, ../sass/styles.scss */
-  #left2 {
-    width: 200px;
-    height: auto;
-    margin-left: 180px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+  .photoCenter {
+    display: block;
+    margin: 0 auto;
   }
 
-  /* line 68, ../sass/styles.scss */
-  #text2 {
-    max-width: 480px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+  /* line 65, ../sass/styles.scss */
+  .Icon1 {
+    margin-bottom: 80px;
+  }
+
+  /* line 69, ../sass/styles.scss */
+  .Icon2 {
+    margin-top: 90px;
+  }
+
+  /* line 73, ../sass/styles.scss */
+  #content1Text {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  /* line 78, ../sass/styles.scss */
+  .fold {
+    width: 100%;
+    height: 512px;
+  }
+
+  /* line 83, ../sass/styles.scss */
+  .orangeBG {
+    background: #FF8700;
+    margin-top: 25px;
+  }
+
+  /* line 88, ../sass/styles.scss */
+  #content2 {
+    position: relative;
+    right: -30px;
+    padding-top: 190px;
+  }
+
+  /* line 94, ../sass/styles.scss */
+  #content2Text {
+    width: 500px;
+    padding-top: 160px;
+  }
+
+  /* line 99, ../sass/styles.scss */
+  #content3 {
+    padding-top: 150px;
+    padding-left: 300px;
+    position: relative;
+  }
+
+  /* line 105, ../sass/styles.scss */
+  .imagefloat {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  /* line 111, ../sass/styles.scss */
+  #content3Text {
+    width: 400px;
+  }
+
+  /* line 115, ../sass/styles.scss */
+  #content4 {
+    padding-top: 190px;
+  }
+
+  /* line 119, ../sass/styles.scss */
+  #content4Text {
+    width: 450px;
+    padding-top: 160px;
+    margin-left: 180px;
+  }
+
+  /* line 125, ../sass/styles.scss */
+  footer {
+    padding: 10px 0px 20px 0px;
+  }
+
+  /* line 129, ../sass/styles.scss */
+  hr {
+    border: 0;
+    height: 0;
+    border-bottom: 1px solid #c9c9c9;
+  }
+
+  /* line 135, ../sass/styles.scss */
+  section {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 143, ../sass/styles.scss */
+  .input-and-selectList {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* line 149, ../sass/styles.scss */
+  input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  /* line 158, ../sass/styles.scss */
+  select[type="drop-down"] {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  /* line 167, ../sass/styles.scss */
+  .style input[type="text"] {
+    padding: 10px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border-bottom: solid 1px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 176, ../sass/styles.scss */
+  .style input[type="text"]:focus,
+  .style input[type="text"].focus {
+    border-bottom: solid 2px #969696;
+  }
+
+  /* line 181, ../sass/styles.scss */
+  .style select[type="drop-down"] {
+    padding: 10px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 190, ../sass/styles.scss */
+  .style select[type="drop-down"]:focus,
+  .style select[type="drop-down"].focus {
+    border-bottom: solid 2px #969696;
+  }
+
+  /* line 195, ../sass/styles.scss */
+  .footer-links {
+    list-style: none;
+  }
+  /* line 198, ../sass/styles.scss */
+  .footer-links li {
+    float: left;
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+  }
+
+  /* line 206, ../sass/styles.scss */
+  .links {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 850px) {
+  /* line 213, ../sass/styles.scss */
+  .wrapper {
+    margin: 0 auto;
+  }
+
+  /* line 217, ../sass/styles.scss */
+  .fold {
+    width: 100%;
+    height: 900px;
+    background: blue;
+  }
+
+  /* line 223, ../sass/styles.scss */
+  #content1 {
+    width: 500px;
+    display: block;
+    text-align: center;
+  }
+
+  /* line 229, ../sass/styles.scss */
+  .photoCenter {
+    display: block;
+    margin: 0 auto;
   }
 }
