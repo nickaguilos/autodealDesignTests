@@ -432,11 +432,9 @@ body {
   /* line 223, ../sass/styles.scss */
   #content1 {
     width: 500px;
-    display: block;
-    text-align: center;
   }
 
-  /* line 229, ../sass/styles.scss */
+  /* line 227, ../sass/styles.scss */
   .photoCenter {
     display: block;
     margin: 0 auto;
