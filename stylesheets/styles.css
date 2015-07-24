@@ -61,7 +61,7 @@
 }
 /*	COLUMN WIDTH ON DISPLAYS +768px 
 	You might need to play with media queries here to suite your design. */
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   /* line 70, ../sass/_responsivegrid.scss */
   .span_1 {
     width: 8.33333333333%;
@@ -378,12 +378,6 @@ body {
   }
 
   /* line 176, ../sass/styles.scss */
-  .style input[type="text"]:focus,
-  .style input[type="text"].focus {
-    border-bottom: solid 2px #969696;
-  }
-
-  /* line 181, ../sass/styles.scss */
   .style select[type="drop-down"] {
     padding: 10px;
     border: none;
@@ -393,17 +387,11 @@ body {
     transition: border 0.3s;
   }
 
-  /* line 190, ../sass/styles.scss */
-  .style select[type="drop-down"]:focus,
-  .style select[type="drop-down"].focus {
-    border-bottom: solid 2px #969696;
-  }
-
-  /* line 195, ../sass/styles.scss */
+  /* line 185, ../sass/styles.scss */
   .footer-links {
     list-style: none;
   }
-  /* line 198, ../sass/styles.scss */
+  /* line 188, ../sass/styles.scss */
   .footer-links li {
     float: left;
     margin-left: 10px;
@@ -411,32 +399,185 @@ body {
     font-size: 12px;
   }
 
-  /* line 206, ../sass/styles.scss */
+  /* line 196, ../sass/styles.scss */
   .links {
     margin-top: 5px;
   }
 }
 @media (max-width: 850px) {
-  /* line 213, ../sass/styles.scss */
+  /* line 207, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
   }
 
-  /* line 217, ../sass/styles.scss */
+  /* line 211, ../sass/styles.scss */
+  h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+  }
+
+  /* line 216, ../sass/styles.scss */
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+  }
+
+  /* line 221, ../sass/styles.scss */
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+  }
+
+  /* line 226, ../sass/styles.scss */
   .fold {
     width: 100%;
-    height: 900px;
-    background: blue;
+    height: auto;
   }
 
-  /* line 223, ../sass/styles.scss */
+  /* line 231, ../sass/styles.scss */
+  .centered {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 236, ../sass/styles.scss */
+  .orangeBG {
+    background: #FF8700;
+  }
+
+  /* line 240, ../sass/styles.scss */
   #content1 {
     width: 500px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
   }
 
-  /* line 227, ../sass/styles.scss */
+  /* line 247, ../sass/styles.scss */
   .photoCenter {
     display: block;
     margin: 0 auto;
+  }
+
+  /* line 252, ../sass/styles.scss */
+  #content2 {
+    width: 200px;
+    padding-top: 190px;
+  }
+
+  /* line 257, ../sass/styles.scss */
+  #content2Text {
+    width: 400px;
+    position: relative;
+    right: -200px;
+    top: -230px;
+  }
+
+  /* line 264, ../sass/styles.scss */
+  #content3 {
+    padding-top: 20px;
+    padding-left: 160px;
+    position: relative;
+  }
+
+  /* line 270, ../sass/styles.scss */
+  .imagefloat {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  /* line 276, ../sass/styles.scss */
+  #content3Text {
+    width: 350px;
+  }
+
+  /* line 280, ../sass/styles.scss */
+  .hidden1 {
+    visibility: hidden;
+  }
+
+  /* line 284, ../sass/styles.scss */
+  #content4 {
+    width: 200px;
+    padding-top: 190px;
+    position: relative;
+    right: -400px;
+    top: -340px;
+  }
+
+  /* line 292, ../sass/styles.scss */
+  #content4Text {
+    width: 400px;
+    padding-top: 400px;
+    margin-left: 50px;
+  }
+
+  /* line 298, ../sass/styles.scss */
+  section {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 306, ../sass/styles.scss */
+  .input-and-selectList {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* line 312, ../sass/styles.scss */
+  input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  /* line 321, ../sass/styles.scss */
+  .style input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 328, ../sass/styles.scss */
+  select[type="drop-down"] {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  /* line 337, ../sass/styles.scss */
+  .style select[type="drop-down"] {
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 344, ../sass/styles.scss */
+  .footer-links {
+    list-style: none;
+  }
+  /* line 347, ../sass/styles.scss */
+  .footer-links li {
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  /* line 354, ../sass/styles.scss */
+  .links {
+    margin-top: 5px;
   }
 }
