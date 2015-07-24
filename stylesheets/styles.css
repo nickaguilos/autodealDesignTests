@@ -190,7 +190,7 @@ body {
   background: white;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1000px) {
   /* line 18, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
@@ -211,21 +211,27 @@ body {
   /* line 32, ../sass/styles.scss */
   h2 {
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+    font-size: 28px;
   }
 
   /* line 37, ../sass/styles.scss */
+  h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+  }
+
+  /* line 42, ../sass/styles.scss */
   .fontCentered {
     text-align: center;
   }
 
-  /* line 41, ../sass/styles.scss */
+  /* line 46, ../sass/styles.scss */
   .centered {
     max-width: 80%;
     margin: 0 auto;
   }
 
-  /* line 46, ../sass/styles.scss */
+  /* line 51, ../sass/styles.scss */
   #content1 {
     width: 300px;
     position: relative;
@@ -233,7 +239,7 @@ body {
     padding-top: 140px;
   }
 
-  /* line 53, ../sass/styles.scss */
+  /* line 58, ../sass/styles.scss */
   #iphonePhoto1 {
     width: 300px;
     position: relative;
@@ -241,97 +247,102 @@ body {
     left: -100px;
   }
 
-  /* line 60, ../sass/styles.scss */
+  /* line 65, ../sass/styles.scss */
   .photoCenter {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 65, ../sass/styles.scss */
+  /* line 70, ../sass/styles.scss */
   .Icon1 {
     margin-bottom: 80px;
   }
 
-  /* line 69, ../sass/styles.scss */
+  /* line 74, ../sass/styles.scss */
   .Icon2 {
     margin-top: 90px;
   }
 
-  /* line 73, ../sass/styles.scss */
+  /* line 78, ../sass/styles.scss */
   #content1Text {
     max-width: 250px;
     margin: 0 auto;
   }
 
-  /* line 78, ../sass/styles.scss */
+  /* line 83, ../sass/styles.scss */
   .fold {
     width: 100%;
     height: 512px;
   }
 
-  /* line 83, ../sass/styles.scss */
+  /* line 88, ../sass/styles.scss */
   .orangeBG {
     background: #FF8700;
     margin-top: 25px;
   }
 
-  /* line 88, ../sass/styles.scss */
+  /* line 93, ../sass/styles.scss */
   #content2 {
     position: relative;
     right: -30px;
     padding-top: 190px;
   }
 
-  /* line 94, ../sass/styles.scss */
+  /* line 99, ../sass/styles.scss */
   #content2Text {
     width: 500px;
     padding-top: 160px;
   }
 
-  /* line 99, ../sass/styles.scss */
+  /* line 104, ../sass/styles.scss */
   #content3 {
     padding-top: 150px;
     padding-left: 300px;
     position: relative;
   }
 
-  /* line 105, ../sass/styles.scss */
+  /* line 110, ../sass/styles.scss */
   .imagefloat {
     position: absolute;
     top: 0;
     right: 0;
   }
 
-  /* line 111, ../sass/styles.scss */
+  /* line 116, ../sass/styles.scss */
+  .hidden2 {
+    visibility: hidden;
+  }
+
+  /* line 120, ../sass/styles.scss */
   #content3Text {
     width: 400px;
   }
 
-  /* line 115, ../sass/styles.scss */
+  /* line 124, ../sass/styles.scss */
   #content4 {
     padding-top: 190px;
   }
 
-  /* line 119, ../sass/styles.scss */
+  /* line 128, ../sass/styles.scss */
   #content4Text {
     width: 450px;
     padding-top: 160px;
     margin-left: 180px;
   }
 
-  /* line 125, ../sass/styles.scss */
+  /* line 134, ../sass/styles.scss */
   footer {
     padding: 10px 0px 20px 0px;
   }
 
-  /* line 129, ../sass/styles.scss */
+  /* line 138, ../sass/styles.scss */
   hr {
     border: 0;
     height: 0;
     border-bottom: 1px solid #c9c9c9;
   }
 
-  /* line 135, ../sass/styles.scss */
+  /* line 144, ../sass/styles.scss */
   section {
     width: 500px;
     margin-top: 100px;
@@ -340,14 +351,14 @@ body {
     margin-right: auto;
   }
 
-  /* line 143, ../sass/styles.scss */
+  /* line 152, ../sass/styles.scss */
   .input-and-selectList {
     list-style: none;
     margin-top: 30px;
     padding-left: 0px;
   }
 
-  /* line 149, ../sass/styles.scss */
+  /* line 158, ../sass/styles.scss */
   input[type="text"] {
     display: block;
     margin: 0;
@@ -357,7 +368,7 @@ body {
     border-radius: none;
   }
 
-  /* line 158, ../sass/styles.scss */
+  /* line 167, ../sass/styles.scss */
   select[type="drop-down"] {
     display: block;
     margin-top: 30px;
@@ -367,7 +378,7 @@ body {
     border-radius: none;
   }
 
-  /* line 167, ../sass/styles.scss */
+  /* line 176, ../sass/styles.scss */
   .style input[type="text"] {
     padding: 10px;
     border: none;
@@ -377,7 +388,7 @@ body {
     transition: border 0.3s;
   }
 
-  /* line 176, ../sass/styles.scss */
+  /* line 185, ../sass/styles.scss */
   .style select[type="drop-down"] {
     padding: 10px;
     border: none;
@@ -387,11 +398,11 @@ body {
     transition: border 0.3s;
   }
 
-  /* line 185, ../sass/styles.scss */
+  /* line 194, ../sass/styles.scss */
   .footer-links {
     list-style: none;
   }
-  /* line 188, ../sass/styles.scss */
+  /* line 197, ../sass/styles.scss */
   .footer-links li {
     float: left;
     margin-left: 10px;
@@ -399,53 +410,59 @@ body {
     font-size: 12px;
   }
 
-  /* line 196, ../sass/styles.scss */
+  /* line 205, ../sass/styles.scss */
   .links {
     margin-top: 5px;
   }
 }
-@media (max-width: 850px) {
-  /* line 207, ../sass/styles.scss */
+@media (min-width: 768px) {
+  /* line 217, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
   }
 
-  /* line 211, ../sass/styles.scss */
+  /* line 221, ../sass/styles.scss */
   h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 36px;
   }
 
-  /* line 216, ../sass/styles.scss */
+  /* line 226, ../sass/styles.scss */
   p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
   }
 
-  /* line 221, ../sass/styles.scss */
+  /* line 231, ../sass/styles.scss */
   h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+  }
+
+  /* line 236, ../sass/styles.scss */
+  h3 {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
   }
 
-  /* line 226, ../sass/styles.scss */
+  /* line 241, ../sass/styles.scss */
   .fold {
     width: 100%;
     height: auto;
   }
 
-  /* line 231, ../sass/styles.scss */
+  /* line 246, ../sass/styles.scss */
   .centered {
     max-width: 80%;
     margin: 0 auto;
   }
 
-  /* line 236, ../sass/styles.scss */
+  /* line 251, ../sass/styles.scss */
   .orangeBG {
     background: #FF8700;
   }
 
-  /* line 240, ../sass/styles.scss */
+  /* line 255, ../sass/styles.scss */
   #content1 {
     width: 500px;
     text-align: center;
@@ -453,19 +470,19 @@ body {
     margin: 0 auto;
   }
 
-  /* line 247, ../sass/styles.scss */
+  /* line 262, ../sass/styles.scss */
   .photoCenter {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 252, ../sass/styles.scss */
+  /* line 267, ../sass/styles.scss */
   #content2 {
     width: 200px;
     padding-top: 190px;
   }
 
-  /* line 257, ../sass/styles.scss */
+  /* line 272, ../sass/styles.scss */
   #content2Text {
     width: 400px;
     position: relative;
@@ -473,31 +490,26 @@ body {
     top: -230px;
   }
 
-  /* line 264, ../sass/styles.scss */
+  /* line 279, ../sass/styles.scss */
   #content3 {
     padding-top: 20px;
     padding-left: 160px;
     position: relative;
   }
 
-  /* line 270, ../sass/styles.scss */
+  /* line 285, ../sass/styles.scss */
   .imagefloat {
     position: absolute;
     top: 0;
     right: 0;
   }
 
-  /* line 276, ../sass/styles.scss */
+  /* line 291, ../sass/styles.scss */
   #content3Text {
     width: 350px;
   }
 
-  /* line 280, ../sass/styles.scss */
-  .hidden1 {
-    visibility: hidden;
-  }
-
-  /* line 284, ../sass/styles.scss */
+  /* line 295, ../sass/styles.scss */
   #content4 {
     width: 200px;
     padding-top: 190px;
@@ -506,14 +518,14 @@ body {
     top: -340px;
   }
 
-  /* line 292, ../sass/styles.scss */
+  /* line 303, ../sass/styles.scss */
   #content4Text {
     width: 400px;
     padding-top: 400px;
     margin-left: 50px;
   }
 
-  /* line 298, ../sass/styles.scss */
+  /* line 309, ../sass/styles.scss */
   section {
     width: 500px;
     margin-top: 100px;
@@ -522,14 +534,14 @@ body {
     margin-right: auto;
   }
 
-  /* line 306, ../sass/styles.scss */
+  /* line 317, ../sass/styles.scss */
   .input-and-selectList {
     list-style: none;
     margin-top: 30px;
     padding-left: 0px;
   }
 
-  /* line 312, ../sass/styles.scss */
+  /* line 323, ../sass/styles.scss */
   input[type="text"] {
     display: block;
     margin: 0;
@@ -539,7 +551,7 @@ body {
     border-radius: none;
   }
 
-  /* line 321, ../sass/styles.scss */
+  /* line 332, ../sass/styles.scss */
   .style input[type="text"] {
     padding: 10px;
     border: none;
@@ -547,7 +559,7 @@ body {
     transition: border 0.3s;
   }
 
-  /* line 328, ../sass/styles.scss */
+  /* line 339, ../sass/styles.scss */
   select[type="drop-down"] {
     display: block;
     margin-top: 30px;
@@ -557,7 +569,7 @@ body {
     border-radius: none;
   }
 
-  /* line 337, ../sass/styles.scss */
+  /* line 348, ../sass/styles.scss */
   .style select[type="drop-down"] {
     padding: 10px;
     border: none;
@@ -565,18 +577,199 @@ body {
     transition: border 0.3s;
   }
 
-  /* line 344, ../sass/styles.scss */
+  /* line 355, ../sass/styles.scss */
   .footer-links {
     list-style: none;
   }
-  /* line 347, ../sass/styles.scss */
+  /* line 358, ../sass/styles.scss */
   .footer-links li {
     float: left;
     margin-left: 10px;
     font-size: 12px;
   }
 
-  /* line 354, ../sass/styles.scss */
+  /* line 365, ../sass/styles.scss */
+  .links {
+    margin-top: 5px;
+  }
+}
+@media (min-width: 0px) {
+  /* line 377, ../sass/styles.scss */
+  .wrapper {
+    margin: 0 auto;
+  }
+
+  /* line 381, ../sass/styles.scss */
+  h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+  }
+
+  /* line 386, ../sass/styles.scss */
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+  }
+
+  /* line 391, ../sass/styles.scss */
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+  }
+
+  /* line 396, ../sass/styles.scss */
+  h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+  }
+
+  /* line 401, ../sass/styles.scss */
+  .fold {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 406, ../sass/styles.scss */
+  .centered {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 411, ../sass/styles.scss */
+  .orangeBG {
+    background: #FF8700;
+  }
+
+  /* line 415, ../sass/styles.scss */
+  #content1 {
+    width: 500px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+
+  /* line 422, ../sass/styles.scss */
+  .photoCenter {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 427, ../sass/styles.scss */
+  #content2 {
+    padding-top: 190px;
+  }
+
+  /* line 431, ../sass/styles.scss */
+  #content2Text {
+    width: 300px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* line 438, ../sass/styles.scss */
+  #content3 {
+    padding-top: 20px;
+    padding-left: 160px;
+    position: relative;
+  }
+
+  /* line 444, ../sass/styles.scss */
+  .imagefloat {
+    position: absolute;
+    top: 150px;
+    right: -100px;
+  }
+
+  /* line 450, ../sass/styles.scss */
+  #content3Text {
+    width: 250px;
+  }
+
+  /* line 454, ../sass/styles.scss */
+  #content4 {
+    width: 200px;
+    padding-top: 190px;
+    position: relative;
+    top: -550px;
+    margin: 0 auto;
+  }
+
+  /* line 462, ../sass/styles.scss */
+  #content4Text {
+    width: 400px;
+    padding-top: 500px;
+    margin-left: 50px;
+  }
+
+  /* line 468, ../sass/styles.scss */
+  section {
+    width: 500px;
+    margin-bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 475, ../sass/styles.scss */
+  .input-and-selectList {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* line 481, ../sass/styles.scss */
+  input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  /* line 490, ../sass/styles.scss */
+  .style input[type="text"] {
+    padding: 10px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    border-bottom: solid 1px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 499, ../sass/styles.scss */
+  select[type="drop-down"] {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  /* line 510, ../sass/styles.scss */
+  .style select[type="drop-down"] {
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 517, ../sass/styles.scss */
+  .footer-links {
+    list-style: none;
+  }
+  /* line 520, ../sass/styles.scss */
+  .footer-links li {
+    float: left;
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+  }
+
+  /* line 528, ../sass/styles.scss */
   .links {
     margin-top: 5px;
   }
