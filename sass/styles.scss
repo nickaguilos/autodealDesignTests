@@ -9,7 +9,7 @@ body {
 	background: white;
 }
 
-@media (min-width : 1000px){
+@media (min-width: 960px) and (max-width: 1440px){
 
 	$font: "Open Sans", sans-serif;
 	$titlefontsize: 28px;
@@ -208,7 +208,7 @@ body {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 980px) {
 	$font: "Open Sans", sans-serif;
 	$titlefontsize: 28px;
 	$introfont: 36px;
@@ -368,7 +368,7 @@ body {
 
 }
 
-@media (min-width: 0px) {
+@media (min-width:380px) and (max-width: 750px){
 	$font: "Open Sans", sans-serif;
 	$titlefontsize: 28px;
 	$introfont: 36px;

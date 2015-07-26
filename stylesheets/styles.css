@@ -190,7 +190,7 @@ body {
   background: white;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 960px) and (max-width: 1440px) {
   /* line 18, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
@@ -415,7 +415,7 @@ body {
     margin-top: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 980px) {
   /* line 217, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
@@ -593,7 +593,7 @@ body {
     margin-top: 5px;
   }
 }
-@media (min-width: 0px) {
+@media (min-width: 380px) and (max-width: 750px) {
   /* line 377, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
