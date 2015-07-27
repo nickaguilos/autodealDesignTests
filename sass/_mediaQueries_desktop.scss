@@ -1,0 +1,193 @@
+@media (min-width: 981px){
+
+	$font: "Open Sans", sans-serif;
+
+	.wrapper{
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-family: $font;
+		font-size: 2em;
+		font-weight: lighter;
+	}
+
+	p {
+		font-family: $font;
+		font-size: 1.125em;
+	}
+
+	h2 {
+		font-family: $font;
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-family: $font;
+		font-size: 1.125em;
+	}
+
+	.fontCentered {
+		text-align: center;
+	}
+
+	.centered {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	#content1 {
+		width: 300px;
+		position: relative;
+		right: -100px;
+		padding-top: 140px;
+	}
+
+	#iphonePhoto1 {
+		width: 300px;
+		position: relative;
+		margin-bottom: -5px;
+		left: -100px;
+	}
+
+	.photoCenter {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.Icon1 {
+		margin-bottom: 80px;
+	}
+
+	.Icon2 {
+		margin-top: 90px;
+	}
+
+	#content1Text {
+		margin: 0 auto;
+	}
+
+	.fold {
+		width: 100%;
+		height: 512px;
+	}
+
+	.orangeBG {
+		background: #FF8700;
+		margin-top: 25px;
+	}
+
+	#content2 {
+		position: relative;
+		right: -30px;
+		padding-top: 190px;
+	}
+
+	#content2Text {
+		width: 500px;
+		padding-top: 160px;
+	}
+
+	#content3 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 180px;
+	}
+
+	#backgroundPhoto {
+		background-image: url('/responsive/images/image2.png');
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: cover;
+	}
+
+	#content3Text {
+		width: 300px;
+	}
+
+	#content4 {
+		padding-top: 190px;
+	}
+
+	#content4Text {
+		width: 450px;
+		padding-top: 160px;
+		margin-left: 180px;
+	}
+
+	footer {
+		padding: 10px 0px 20px 0px;
+	}
+
+	hr {
+		border: 0;
+    	height: 0;
+    	border-bottom: 1px solid #c9c9c9;
+	}
+
+	section {
+		width: 500px;
+		margin-top: 100px;
+		margin-bottom: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.input-and-selectList {
+		list-style: none;
+		margin-top: 30px;
+		padding-left: 0px;
+	}
+
+	input[type="text"] {
+		  display: block;
+		  margin: 0;
+		  width: 100%;
+		  appearance: none;
+		  box-shadow: none;
+		  border-radius: none;
+		  font-size: 1.125em;
+	}
+
+	select[type="drop-down"] {
+		  display: block;
+		  margin-top: 30px;
+		  width: 100%;
+		  appearance: none;
+		  box-shadow: none;
+		  border-radius: none;
+		  font-size: 1.125em;
+	}
+
+	.style input[type="text"] {
+		  padding: 10px;
+		  border: none;
+		  font-family: $font;
+		  border-bottom: solid 1px #c9c9c9;
+		  transition: border 0.3s;
+	}
+
+	.style select[type="drop-down"] {
+		  padding: 10px;
+		  border: none;
+		  font-family: $font;
+		  border-bottom: solid 1px #c9c9c9;
+		  background-color: transparent;
+	}
+
+	.footer-links {
+		list-style: none;
+
+		li {
+			float: left;
+			margin-left: 10px;
+			font-family: $font;
+		  	font-size: 0.75em;
+		}
+	}
+
+	.links {
+		margin-top: 5px;
+	}
+
+}

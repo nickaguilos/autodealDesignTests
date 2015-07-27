@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <title>Responsive Test</title>
     <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="responsive/css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="responsive/css/normalize.css">
+    <script src="responsive/js/vendor/jquery.js"></script>
+    <script src="responsive/js/foundation.js"></script>
+    <script src="responsive/js/foundation.magellan.js"></script>
 </head>
 <body>
+   <div data-magellan-expedition="fixed">
+      <dl class="sub-nav">
+         <dd data-magellan-arrival="foldOne"><a href="#foldOne">One</a></dd>
+         <dd data-magellan-arrival="foldTwo"><a href="#foldTwo">Two</a></dd>
+      </dl>
+   </div>
    <div class="wrapper">
    		<div class="fold">
+            <a name="foldOne">
    			<div class="row centered">
    				<div class="col span_6">
    					<article id="content1">
@@ -28,6 +40,7 @@
    			</div>
    		</div>
    		<div class="fold orangeBG">
+            <a name="foldTwo">
    			<div class="row centered">
    				<div class="col span_4">
    					<article id="content2">
@@ -48,20 +61,25 @@
    			</div>
    		</div>
    		<div class="fold">
-			<article id="content3">
-				<img src="images/notif.png">
-				<div id="content3Text">
-						<h2>
-						  Get Alerts On The Latest Car Releases
-						</h2>
-						<p>
-						  Nexus 5 gives you a full HD display so you can see every detail in lifelike color with less glare and a wider viewing angle.
-						</p>
-   				</div>
-            <img class="imagefloat"src="images/image2.png" align="right;">
-			</article>
+            <a name="foldThree">
+            <div id="backgroundPhoto">
+               <div class="centered">
+         			<article id="content3">
+         				<img src="images/notif.png">
+         				  <div id="content3Text">
+         						<h2>
+         						  Get Alerts On The Latest Car Releases
+         						</h2>
+         						<p>
+         						  Nexus 5 gives you a full HD display so you can see every detail in lifelike color with less glare and a wider viewing angle.
+         						</p>
+            				</div>
+         			</article>
+               </div>  
+            </div>
    		</div>
    		<div class="fold">
+            <a name="foldFour">
    			<div class="row centered">
    				<div class="col span_7">
    					<div id="content4Text">
@@ -82,6 +100,7 @@
    			</div>
    		</div>
    		<div class="fold">
+            <a name="foldFive">
    			<div class="centered">
    				<section>
    					<h3 class="fontCentered">Keep me posted on the latest news from AutoDeal</h3>
