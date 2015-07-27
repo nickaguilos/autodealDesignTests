@@ -190,7 +190,7 @@ body {
   background: white;
 }
 
-@media (min-width: 960px) and (max-width: 1440px) {
+@media (min-width: 981px) {
   /* line 18, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
@@ -593,7 +593,7 @@ body {
     margin-top: 5px;
   }
 }
-@media (min-width: 380px) and (max-width: 750px) {
+@media (min-width: 380px) and (max-width: 767px) {
   /* line 377, ../sass/styles.scss */
   .wrapper {
     margin: 0 auto;
