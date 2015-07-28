@@ -4,138 +4,155 @@
     <meta charset="UTF-8">
     <title>Responsive Test</title>
     <link rel="stylesheet" href="../stylesheets/styles.css">
-    <link rel="stylesheet" type="text/css" href="responsive/css/foundation.css">
-    <link rel="stylesheet" type="text/css" href="responsive/css/normalize.css">
-    <script src="responsive/js/vendor/jquery.js"></script>
-    <script src="responsive/js/foundation.js"></script>
-    <script src="responsive/js/foundation.magellan.js"></script>
+    <link type="text/css" rel="stylesheet" href="/responsive/css/materialize.min.css"/>
 </head>
 <body>
-   <div data-magellan-expedition="fixed">
-      <dl class="sub-nav">
-         <dd data-magellan-arrival="foldOne"><a href="#foldOne">One</a></dd>
-         <dd data-magellan-arrival="foldTwo"><a href="#foldTwo">Two</a></dd>
-      </dl>
-   </div>
-   <div class="wrapper">
-   		<div class="fold">
-            <a name="foldOne">
-   			<div class="row centered">
-   				<div class="col span_6">
-   					<article id="content1">
-   						<img class="photoCenter Icon1" src="images/AutoDeal_Icon.png">
-   						<div id="content1Text">
-   							<h1 class="fontCentered intro">
-							  Introducing the AutoDeal User App
-							</h1>
-   						</div>
-   						<img class="photoCenter Icon2" src="images/Bitmap.png">
-   					</article>
-   				</div>
-   				<div class="col span_6">
-   					<div id="iphonePhoto1">
-   						<img class="photoCenter"src="images/image.png">
-   					</div>
-   				</div>
-   			</div>
-   		</div>
-   		<div class="fold orangeBG">
-            <a name="foldTwo">
-   			<div class="row centered">
-   				<div class="col span_4">
-   					<article id="content2">
-   						<img class="photoCenter" src="images/Shape.png">
-   						<img class="photoCenter Icon1" src="images/Oval 1.png">
-   					</article>
-   				</div>
-   				<div class="col span_7">
-   					<div id="content2Text">
-						<h2>
-						  Subscribe to Brands, Save Promos, Add Cars to Wishlists
-						</h2>
-						<p>
-						  Wayfarers pork belly pickled tousled yr, Etsy slow-carb. Etsy wolf aesthetic, lomo cardigan kitsch pour-over fanny pack. Chambray keytar dreamcatcher seitan fashion axe.
-						</p>
-   					</div>
-   				</div>
-   			</div>
-   		</div>
-   		<div class="fold">
-            <a name="foldThree">
-            <div id="backgroundPhoto">
-               <div class="centered">
-         			<article id="content3">
-         				<img src="images/notif.png">
-         				  <div id="content3Text">
-         						<h2>
-         						  Get Alerts On The Latest Car Releases
-         						</h2>
-         						<p>
-         						  Nexus 5 gives you a full HD display so you can see every detail in lifelike color with less glare and a wider viewing angle.
-         						</p>
-            				</div>
-         			</article>
-               </div>  
+   <div class="row">
+    <div class="col s12 m9 l10">
+      <div class="wrapper">
+         <div id="navigation">
+            <div class="col hide-on-small-only m3 l2">
+               <ul class="section table-of-contents">
+                  <li><a href="#foldOne"></a></li>
+                  <li><a href="#foldTwo"></a></li>
+                  <li><a href="#foldThree"></a></li>
+                  <li><a href="#foldFour"></a></li>
+                  <li><a href="#foldFive"></a></li>
+               </ul>
             </div>
-   		</div>
-   		<div class="fold">
-            <a name="foldFour">
-   			<div class="row centered">
-   				<div class="col span_7">
-   					<div id="content4Text">
-						<h2>
-						  Quickly Message Sales Agents
-						</h2>
-						<p>
-						  Hoodie mixtape swag, irony pop-up Vice artisan polaroid lomo bicycle rights vegan seitan Intelligentsia Marfa skateboard
-						</p>
-   					</div>
-   				</div>
-   				<div class="col span_4">
-   					<article id="content4">
-   						<img class="photoCenter" src="images/bubble.png">
-   						<img class="photoCenter Icon1" src="images/Oval 2.png">
-   					</article>
-   				</div>
-   			</div>
-   		</div>
-   		<div class="fold">
-            <a name="foldFive">
-   			<div class="centered">
-   				<section>
-   					<h3 class="fontCentered">Keep me posted on the latest news from AutoDeal</h3>
-   					<ul class="input-and-selectList style">
-	   					<li>
-	   						<input type="text" name="YourEmail" value="Your Email">
-	   					</li>
-	   					<li>
-		   					<select type="drop-down">
-		   						<option value="option1">I am a dealership</option>
-		   						<option value="option2">I am a customer</option>
-		   					</select>
-	   					</li>
-   				</section>
-   			</div>
-   		</div>
-   		<hr>
-   		<footer>
-   			<div class="row centered">
-   				<div class="col span_8">
-   					<ul class="footer-links">
-						<li><img src="images/AutoDeal_Icon 2.png"></li>
-						<li class="links">Main AutoDeal Site</li>
-						<li class="links">How It Works</li>
-						<li class="links">Download App</li>
-   					</ul>
-   				</div>
-   				<div class="col span_4">
-   					<ul class="footer-links">
-						<li class="links"><img src="images/fb icon.png"></li>
-						<li class="links">AutoDeal on Facebook</li>
-   					</ul>
-   				</div>
-   			</div>
-   		</footer>
+         </div>
+      		<div class="fold">
+               <div id="foldOne" class="content section scrollspy">
+         			<div id="backgroundPhoto2" class="row centered">
+         				<div class="col span_6">
+         					<article id="content1">
+         						<img class="photoCenter Icon1" src="images/AutoDeal_Icon.png">
+         						<div id="content1Text">
+         							<h1 class="fontCentered intro">
+      							  Introducing the AutoDeal User App
+      							</h1>
+         						</div>
+         						<img class="photoCenter Icon2" src="images/Bitmap.png">
+         					</article>
+         				</div>
+         				<div class="col span_6">
+         					<div id="iphonePhoto1">
+         						<img class="photoCenter"src="images/image.png">
+         					</div>
+         				</div>
+         			</div>
+               </div>
+      		</div>
+      		<div class="fold orangeBG">
+               <div id="foldTwo" class="content section scrollspy">
+         			<div class="row centered">
+         				<div class="col span_4">
+         					<article id="content2">
+         						<img class="photoCenter" src="images/Shape.png">
+         						<img class="photoCenter Icon1" src="images/Oval 1.png">
+         					</article>
+         				</div>
+         				<div class="col span_7">
+         					<div id="content2Text">
+      						<h2>
+      						  Subscribe to Brands, Save Promos, Add Cars to Wishlists
+      						</h2>
+      						<p>
+      						  Wayfarers pork belly pickled tousled yr, Etsy slow-carb. Etsy wolf aesthetic, lomo cardigan kitsch pour-over fanny pack. Chambray keytar dreamcatcher seitan fashion axe.
+      						</p>
+         					</div>
+         				</div>
+         			</div>
+               </div>
+      		</div>
+      		<div class="fold">
+               <div id="foldThree" class="content section scrollspy">
+                  <div id="backgroundPhoto">
+                     <div class="centered">
+               			<article id="content3">
+               				<img src="images/notif.png">
+               				  <div id="content3Text">
+               						<h2>
+               						  Get Alerts On The Latest Car Releases
+               						</h2>
+               						<p>
+               						  Nexus 5 gives you a full HD display so you can see every detail in lifelike color with less glare and a wider viewing angle.
+               						</p>
+                  				</div>
+               			</article>
+                     </div>  
+                  </div>
+               </div>
+      		</div>
+      		<div class="fold">
+               <div id="foldFour" class="content section scrollspy">
+         			<div class="row centered">
+         				<div class="col span_7">
+         					<div id="content4Text">
+      						<h2>
+      						  Quickly Message Sales Agents
+      						</h2>
+      						<p>
+      						  Hoodie mixtape swag, irony pop-up Vice artisan polaroid lomo bicycle rights vegan seitan Intelligentsia Marfa skateboard
+      						</p>
+         					</div>
+         				</div>
+         				<div class="col span_4">
+         					<article id="content4">
+         						<img class="photoCenter" src="images/bubble.png">
+         						<img class="photoCenter Icon1" src="images/Oval 2.png">
+         					</article>
+         				</div>
+         			</div>
+               </div>
+      		</div>
+      		<div class="fold">
+               <div id="foldFive" class="content section scrollspy">
+         			<div class="centered">
+         				<section>
+         					<h3 class="fontCentered">Keep me posted on the latest news from AutoDeal</h3>
+         					<ul class="input-and-selectList style">
+      	   					<li>
+      	   						<input type="text" name="YourEmail" value="Your Email">
+      	   					</li>
+      	   					<li>
+      		   					<select type="drop-down">
+      		   						<option value="option1">I am a dealership</option>
+      		   						<option value="option2">I am a customer</option>
+      		   					</select>
+      	   					</li>
+         				</section>
+         			</div>
+               </div>
+      		</div>
+      		<hr>
+      		<footer>
+      			<div class="row centered">
+      				<div class="col span_8">
+      					<ul class="footer-links">
+   						<li><img src="images/AutoDeal_Icon 2.png"></li>
+   						<li class="links">Main AutoDeal Site</li>
+   						<li class="links">How It Works</li>
+   						<li class="links">Download App</li>
+      					</ul>
+      				</div>
+      				<div class="col span_4">
+      					<ul class="footer-links">
+   						<li class="links"><img src="images/fb icon.png"></li>
+   						<li class="links">AutoDeal on Facebook</li>
+      					</ul>
+      				</div>
+      			</div>
+      		</footer>
+      </div>
+    </div>
    </div>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script type="text/javascript" src="js/materialize.min.js"></script>
+   <script>
+      $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+      });
+   </script>
 </body>
 </html>

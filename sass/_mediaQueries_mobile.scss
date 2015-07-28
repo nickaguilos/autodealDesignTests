@@ -1,8 +1,10 @@
 @media (min-width:380px) and (max-width: 767px){
 	$font: "Open Sans", sans-serif;
-	$titlefontsize: 28px;
-	$introfont: 36px;
-	$contentfontsize: 20px;
+
+
+	#navigation {
+		visibility: hidden;
+	}
 
 	.wrapper {
 		margin: 0 auto;

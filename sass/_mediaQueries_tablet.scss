@@ -1,5 +1,9 @@
 @media (min-width: 768px) and (max-width: 980px) {
 	$font: "Open Sans", sans-serif;
+	
+	#navigation {
+		visibility: hidden;
+	}
 
 	.wrapper {
 		margin: 0 auto;
