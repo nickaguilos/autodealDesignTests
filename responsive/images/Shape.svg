@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="109px" height="101px" viewBox="0 0 109 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>favorite</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="12.0950401%" y1="7.67299107%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D0011B" offset="0%"></stop>
+            <stop stop-color="#A82E01" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-202.000000, -760.000000)" fill="url(#linearGradient-1)">
+            <g id="2nd" sketch:type="MSLayerGroup" transform="translate(0.000000, 582.000000)">
+                <g id="favorite" transform="translate(202.000000, 178.000000)" sketch:type="MSShapeGroup">
+                    <path d="M54.5,100.177778 L46.87,92.5555556 C18.53,67.5111111 0,50.6333333 0,29.9444444 C0,13.0666667 13.08,0 29.975,0 C39.24,0 48.505,4.35555556 54.5,11.4333333 C60.495,4.35555556 69.76,0 79.025,0 C95.92,0 109,13.0666667 109,29.9444444 C109,50.6333333 90.47,67.5111111 62.13,92.5555556 L54.5,100.177778 L54.5,100.177778 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
