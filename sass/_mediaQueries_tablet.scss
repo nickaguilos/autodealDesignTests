@@ -1,110 +1,14 @@
 @media (min-width: 641px) and (max-width: 980px) {
+
 	$font: "Open Sans", sans-serif;
 
-	#navigation {
-		visibility: hidden;
-	}
-
-	.wrapper {
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-family: $font;
-		font-size: 3em;
-		font-weight: lighter;
-	}
-
-	p {
-		font-family: $font;
-		font-size: 1.25em;
-	}
-
-	h2 {
-		font-family: $font;
-		font-size: 2.25em;
-	}
-
-	h3 {
-		font-family: $font;
-		font-size: 1.125em;
-	}
-
-	.fold {
-		width: 100%;
-		height: auto;
-	}
-
-	.centered {
-		max-width: 80%;
-		margin: 0 auto;
-	}
-
-	.orangeBG {
-		background: #FF8700;
-	}
-
-	#content1 {
-		width: 500px;
-		text-align: center;
-		padding-top: 100px;
-		margin: 0 auto;
-	}
-
-	.photoCenter {
-		display: block;
-		margin: 0 auto;
-	}
-
-	#content2 {
-		width: 200px;
-		padding-top: 300px;
-	}
-
-	#content2Text {
-		width: 400px;
-		position: relative;
-		right: -200px;
-		top: -300px;
-	}
-
-	#content3 {
-		padding-top: 100px;
-		padding-bottom: 150px;
-		padding-left: 60px;
-	}
-
-	#backgroundPhoto {
-		background-image: url('/responsive/images/image3.png');
-		background-repeat: no-repeat;
-		background-position: right;
-		background-size: cover;
-	}
-
-	#backgroundPhoto2 {
-		background-image: url('/responsive/images/Rectangle 1.png');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-	}
-
-	#content3Text {
-		width: 300px;
-	}
-
-	#content4 {
-		width:  200px;
-		padding-top: 190px;
-		position: relative;
-		right: -460px;
-		top: -340px;
-	}
-
-	#content4Text {
-		width: 400px;
-		padding-top: 200px;
-		margin-left: 60px;
-	}
+	h1,h2,h3,p { font-family: $font; }
+	h2,h3 { font-weight: normal; }
+	h1,p { font-weight: lighter; }
+	h1 { font-size: 3em; }
+	p { font-size: 1.25em; }
+	h2 { font-size: 2.25em; }
+	h3 { font-size: 1.125em; }
 
 	section {
 		width: 500px;
@@ -112,12 +16,6 @@
 		margin-bottom: 250px;
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-	.input-and-selectList {
-		list-style: none;
-		margin-top: 30px;
-		padding-left: 0px;
 	}
 
 	input[type="text"] {
@@ -130,13 +28,6 @@
 		  font-size: 1.125em;
 	}
 
-	.style input[type="text"] {
-		padding: 10px;
-		border: none;
-		border-bottom: solid 1px #c9c9c9;
-		transition: border 0.3s;
-	}
-
 	select[type="drop-down"] {
 		  display: block;
 		  margin-top: 30px;
@@ -145,6 +36,38 @@
 		  box-shadow: none;
 		  border-radius: none;
 		  font-size: 1.125em;
+	}
+	
+	.positionRelative { position: relative; }
+	
+	.fold {
+		width: 100%;
+		height: auto;
+	}
+
+	.centered {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	.orangeBG { background: #FF8700; }
+
+	.photoCenter {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.input-and-selectList {
+		list-style: none;
+		margin-top: 30px;
+		padding-left: 0px;
+	}
+
+	.style input[type="text"] {
+		padding: 10px;
+		border: none;
+		border-bottom: solid 1px #c9c9c9;
+		transition: border 0.3s;
 	}
 
 	.style select[type="drop-down"] {
@@ -165,8 +88,56 @@
 		}
 	}
 
-	.links {
-		margin-top: 5px;
+	.links { margin-top: 5px; }
+
+	#navigation { display: none; }
+
+	#content1 {
+		width: 500px;
+		text-align: center;
+		padding-top: 100px;
+		margin: 0 auto;
 	}
 
+	#content2 {
+		width: 200px;
+		padding-top: 300px;
+	}
+
+	#content2Text {
+		width: 400px;
+		right: -200px;
+		top: -300px;
+	}
+
+	#content3 {
+		padding-top: 100px;
+		padding-bottom: 150px;
+		padding-left: 60px;
+	}
+
+	#backgroundPhoto {
+		background-image: url('/responsive/images/image3.png') right no-repeat;
+		background-size: cover;
+	}
+
+	#backgroundPhoto2 {
+		background-image: url('/responsive/images/Rectangle 1.png') center no-repeat;
+		background-size: cover;
+	}
+
+	#content3Text { width: 300px; }
+
+	#content4 {
+		width:  200px;
+		padding-top: 190px;
+		right: -460px;
+		top: -340px;
+	}
+
+	#content4Text {
+		width: 400px;
+		padding-top: 200px;
+		margin-left: 60px;
+	}
 }

@@ -4,7 +4,6 @@
 @import '_mediaQueries_tablet';
 @import '_mediaQueries_mobile';
 
-
 body {
 	margin: 0;
 	width: 100%;
@@ -19,3 +18,5 @@ body {
 	right: 0;
 	margin-right: 30px;
 }
+
+.wappper { margin: 0 auto; }

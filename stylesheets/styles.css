@@ -184,80 +184,113 @@
 }
 @media (min-width: 981px) {
   /* line 5, ../sass/_mediaQueries_desktop.scss */
-  .wrapper {
-    margin: 0 auto;
+  h1, h2, h3, p {
+    font-family: "Open Sans", sans-serif;
   }
 
-  /* line 9, ../sass/_mediaQueries_desktop.scss */
-  h1 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2em;
+  /* line 6, ../sass/_mediaQueries_desktop.scss */
+  h1, p {
     font-weight: lighter;
   }
 
-  /* line 15, ../sass/_mediaQueries_desktop.scss */
+  /* line 7, ../sass/_mediaQueries_desktop.scss */
+  h2, h3 {
+    font-weight: normal;
+  }
+
+  /* line 8, ../sass/_mediaQueries_desktop.scss */
+  h1 {
+    font-size: 2em;
+  }
+
+  /* line 9, ../sass/_mediaQueries_desktop.scss */
   p {
-    font-family: "Open Sans", sans-serif;
     font-size: 1.125em;
   }
 
-  /* line 20, ../sass/_mediaQueries_desktop.scss */
+  /* line 10, ../sass/_mediaQueries_desktop.scss */
   h2 {
-    font-family: "Open Sans", sans-serif;
     font-size: 1.75em;
   }
 
-  /* line 25, ../sass/_mediaQueries_desktop.scss */
+  /* line 11, ../sass/_mediaQueries_desktop.scss */
   h3 {
-    font-family: "Open Sans", sans-serif;
     font-size: 1.125em;
   }
 
-  /* line 30, ../sass/_mediaQueries_desktop.scss */
+  /* line 13, ../sass/_mediaQueries_desktop.scss */
+  input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    font-size: 1.125em;
+  }
+
+  /* line 23, ../sass/_mediaQueries_desktop.scss */
+  select[type="drop-down"] {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    font-size: 1.125em;
+  }
+
+  /* line 33, ../sass/_mediaQueries_desktop.scss */
+  footer {
+    padding: 10px 0px 20px 0px;
+  }
+
+  /* line 37, ../sass/_mediaQueries_desktop.scss */
+  hr {
+    border: 0;
+    height: 0;
+    border-bottom: 1px solid #c9c9c9;
+  }
+
+  /* line 43, ../sass/_mediaQueries_desktop.scss */
+  section {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 51, ../sass/_mediaQueries_desktop.scss */
+  .positionRelative {
+    position: relative;
+  }
+
+  /* line 53, ../sass/_mediaQueries_desktop.scss */
   .fontCentered {
     text-align: center;
   }
 
-  /* line 34, ../sass/_mediaQueries_desktop.scss */
+  /* line 55, ../sass/_mediaQueries_desktop.scss */
   .centered {
     max-width: 1000px;
     margin: 0 auto;
   }
 
-  /* line 39, ../sass/_mediaQueries_desktop.scss */
-  #content1 {
-    width: 300px;
-    position: relative;
-    right: -130px;
-    padding-top: 140px;
-  }
-
-  /* line 46, ../sass/_mediaQueries_desktop.scss */
-  #iphonePhoto1 {
-    width: 300px;
-    position: relative;
-    left: -60px;
-  }
-
-  /* line 52, ../sass/_mediaQueries_desktop.scss */
+  /* line 60, ../sass/_mediaQueries_desktop.scss */
   .photoCenter {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 57, ../sass/_mediaQueries_desktop.scss */
+  /* line 65, ../sass/_mediaQueries_desktop.scss */
   .Icon1 {
     margin-bottom: 80px;
   }
 
-  /* line 61, ../sass/_mediaQueries_desktop.scss */
+  /* line 67, ../sass/_mediaQueries_desktop.scss */
   .Icon2 {
     margin-top: 90px;
-  }
-
-  /* line 65, ../sass/_mediaQueries_desktop.scss */
-  #content1Text {
-    margin: 0 auto;
   }
 
   /* line 69, ../sass/_mediaQueries_desktop.scss */
@@ -273,109 +306,13 @@
   }
 
   /* line 79, ../sass/_mediaQueries_desktop.scss */
-  #content2 {
-    position: relative;
-    right: -30px;
-    padding-top: 190px;
-  }
-
-  /* line 85, ../sass/_mediaQueries_desktop.scss */
-  #content2Text {
-    width: 500px;
-    padding-top: 160px;
-  }
-
-  /* line 90, ../sass/_mediaQueries_desktop.scss */
-  #content3 {
-    padding-top: 100px;
-    padding-bottom: 150px;
-    padding-left: 180px;
-  }
-
-  /* line 96, ../sass/_mediaQueries_desktop.scss */
-  #backgroundPhoto {
-    background-image: url("/responsive/images/image2.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-  }
-
-  /* line 103, ../sass/_mediaQueries_desktop.scss */
-  #backgroundPhoto2 {
-    background-image: url("/responsive/images/Rectangle 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  /* line 110, ../sass/_mediaQueries_desktop.scss */
-  #content3Text {
-    width: 300px;
-  }
-
-  /* line 114, ../sass/_mediaQueries_desktop.scss */
-  #content4 {
-    padding-top: 190px;
-  }
-
-  /* line 118, ../sass/_mediaQueries_desktop.scss */
-  #content4Text {
-    width: 450px;
-    padding-top: 160px;
-    margin-left: 180px;
-  }
-
-  /* line 124, ../sass/_mediaQueries_desktop.scss */
-  footer {
-    padding: 10px 0px 20px 0px;
-  }
-
-  /* line 128, ../sass/_mediaQueries_desktop.scss */
-  hr {
-    border: 0;
-    height: 0;
-    border-bottom: 1px solid #c9c9c9;
-  }
-
-  /* line 134, ../sass/_mediaQueries_desktop.scss */
-  section {
-    width: 500px;
-    margin-top: 100px;
-    margin-bottom: 250px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* line 142, ../sass/_mediaQueries_desktop.scss */
   .input-and-selectList {
     list-style: none;
     margin-top: 30px;
     padding-left: 0px;
   }
 
-  /* line 148, ../sass/_mediaQueries_desktop.scss */
-  input[type="text"] {
-    display: block;
-    margin: 0;
-    width: 100%;
-    appearance: none;
-    box-shadow: none;
-    border-radius: none;
-    font-size: 1.125em;
-  }
-
-  /* line 158, ../sass/_mediaQueries_desktop.scss */
-  select[type="drop-down"] {
-    display: block;
-    margin-top: 30px;
-    width: 100%;
-    appearance: none;
-    box-shadow: none;
-    border-radius: none;
-    font-size: 1.125em;
-  }
-
-  /* line 168, ../sass/_mediaQueries_desktop.scss */
+  /* line 85, ../sass/_mediaQueries_desktop.scss */
   .style input[type="text"] {
     padding: 10px;
     border: none;
@@ -384,7 +321,7 @@
     transition: border 0.3s;
   }
 
-  /* line 176, ../sass/_mediaQueries_desktop.scss */
+  /* line 93, ../sass/_mediaQueries_desktop.scss */
   .style select[type="drop-down"] {
     padding: 10px;
     border: none;
@@ -393,11 +330,11 @@
     background-color: transparent;
   }
 
-  /* line 184, ../sass/_mediaQueries_desktop.scss */
+  /* line 101, ../sass/_mediaQueries_desktop.scss */
   .footer-links {
     list-style: none;
   }
-  /* line 187, ../sass/_mediaQueries_desktop.scss */
+  /* line 104, ../sass/_mediaQueries_desktop.scss */
   .footer-links li {
     float: left;
     margin-left: 10px;
@@ -405,137 +342,114 @@
     font-size: 0.75em;
   }
 
-  /* line 195, ../sass/_mediaQueries_desktop.scss */
+  /* line 112, ../sass/_mediaQueries_desktop.scss */
   .links {
     margin-top: 5px;
   }
-}
-@media (min-width: 641px) and (max-width: 980px) {
-  /* line 4, ../sass/_mediaQueries_tablet.scss */
-  #navigation {
-    visibility: hidden;
-  }
 
-  /* line 8, ../sass/_mediaQueries_tablet.scss */
-  .wrapper {
-    margin: 0 auto;
-  }
-
-  /* line 12, ../sass/_mediaQueries_tablet.scss */
-  h1 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 3em;
-    font-weight: lighter;
-  }
-
-  /* line 18, ../sass/_mediaQueries_tablet.scss */
-  p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25em;
-  }
-
-  /* line 23, ../sass/_mediaQueries_tablet.scss */
-  h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.25em;
-  }
-
-  /* line 28, ../sass/_mediaQueries_tablet.scss */
-  h3 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.125em;
-  }
-
-  /* line 33, ../sass/_mediaQueries_tablet.scss */
-  .fold {
-    width: 100%;
-    height: auto;
-  }
-
-  /* line 38, ../sass/_mediaQueries_tablet.scss */
-  .centered {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  /* line 43, ../sass/_mediaQueries_tablet.scss */
-  .orangeBG {
-    background: #FF8700;
-  }
-
-  /* line 47, ../sass/_mediaQueries_tablet.scss */
+  /* line 114, ../sass/_mediaQueries_desktop.scss */
   #content1 {
-    width: 500px;
-    text-align: center;
-    padding-top: 100px;
+    width: 300px;
+    right: -130px;
+    padding-top: 140px;
+  }
+
+  /* line 120, ../sass/_mediaQueries_desktop.scss */
+  #iphonePhoto1 {
+    width: 300px;
+    left: -40px;
+  }
+
+  /* line 125, ../sass/_mediaQueries_desktop.scss */
+  #content1Text {
     margin: 0 auto;
   }
 
-  /* line 54, ../sass/_mediaQueries_tablet.scss */
-  .photoCenter {
-    display: block;
-    margin: 0 auto;
-  }
-
-  /* line 59, ../sass/_mediaQueries_tablet.scss */
+  /* line 129, ../sass/_mediaQueries_desktop.scss */
   #content2 {
-    width: 200px;
-    padding-top: 300px;
+    right: -30px;
+    padding-top: 190px;
   }
 
-  /* line 64, ../sass/_mediaQueries_tablet.scss */
+  /* line 134, ../sass/_mediaQueries_desktop.scss */
   #content2Text {
-    width: 400px;
-    position: relative;
-    right: -200px;
-    top: -300px;
+    width: 500px;
+    padding-top: 160px;
   }
 
-  /* line 71, ../sass/_mediaQueries_tablet.scss */
+  /* line 139, ../sass/_mediaQueries_desktop.scss */
   #content3 {
     padding-top: 100px;
     padding-bottom: 150px;
-    padding-left: 60px;
+    padding-left: 180px;
   }
 
-  /* line 77, ../sass/_mediaQueries_tablet.scss */
+  /* line 145, ../sass/_mediaQueries_desktop.scss */
   #backgroundPhoto {
-    background-image: url("/responsive/images/image3.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    background: url("/responsive/images/image2.png") right no-repeat;
     background-size: cover;
   }
 
-  /* line 84, ../sass/_mediaQueries_tablet.scss */
+  /* line 150, ../sass/_mediaQueries_desktop.scss */
   #backgroundPhoto2 {
-    background-image: url("/responsive/images/Rectangle 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("/responsive/images/Rectangle 1.png") center no-repeat;
     background-size: cover;
   }
 
-  /* line 91, ../sass/_mediaQueries_tablet.scss */
+  /* line 155, ../sass/_mediaQueries_desktop.scss */
   #content3Text {
     width: 300px;
   }
 
-  /* line 95, ../sass/_mediaQueries_tablet.scss */
+  /* line 157, ../sass/_mediaQueries_desktop.scss */
   #content4 {
-    width: 200px;
     padding-top: 190px;
-    position: relative;
-    right: -460px;
-    top: -340px;
   }
 
-  /* line 103, ../sass/_mediaQueries_tablet.scss */
+  /* line 159, ../sass/_mediaQueries_desktop.scss */
   #content4Text {
-    width: 400px;
-    padding-top: 200px;
-    margin-left: 60px;
+    width: 450px;
+    padding-top: 160px;
+    margin-left: 180px;
+  }
+}
+@media (min-width: 641px) and (max-width: 980px) {
+  /* line 5, ../sass/_mediaQueries_tablet.scss */
+  h1, h2, h3, p {
+    font-family: "Open Sans", sans-serif;
   }
 
-  /* line 109, ../sass/_mediaQueries_tablet.scss */
+  /* line 6, ../sass/_mediaQueries_tablet.scss */
+  h2, h3 {
+    font-weight: normal;
+  }
+
+  /* line 7, ../sass/_mediaQueries_tablet.scss */
+  h1, p {
+    font-weight: lighter;
+  }
+
+  /* line 8, ../sass/_mediaQueries_tablet.scss */
+  h1 {
+    font-size: 3em;
+  }
+
+  /* line 9, ../sass/_mediaQueries_tablet.scss */
+  p {
+    font-size: 1.25em;
+  }
+
+  /* line 10, ../sass/_mediaQueries_tablet.scss */
+  h2 {
+    font-size: 2.25em;
+  }
+
+  /* line 11, ../sass/_mediaQueries_tablet.scss */
+  h3 {
+    font-size: 1.125em;
+  }
+
+  /* line 13, ../sass/_mediaQueries_tablet.scss */
   section {
     width: 500px;
     margin-top: 100px;
@@ -544,14 +458,7 @@
     margin-right: auto;
   }
 
-  /* line 117, ../sass/_mediaQueries_tablet.scss */
-  .input-and-selectList {
-    list-style: none;
-    margin-top: 30px;
-    padding-left: 0px;
-  }
-
-  /* line 123, ../sass/_mediaQueries_tablet.scss */
+  /* line 21, ../sass/_mediaQueries_tablet.scss */
   input[type="text"] {
     display: block;
     margin: 0;
@@ -562,15 +469,7 @@
     font-size: 1.125em;
   }
 
-  /* line 133, ../sass/_mediaQueries_tablet.scss */
-  .style input[type="text"] {
-    padding: 10px;
-    border: none;
-    border-bottom: solid 1px #c9c9c9;
-    transition: border 0.3s;
-  }
-
-  /* line 140, ../sass/_mediaQueries_tablet.scss */
+  /* line 31, ../sass/_mediaQueries_tablet.scss */
   select[type="drop-down"] {
     display: block;
     margin-top: 30px;
@@ -581,7 +480,50 @@
     font-size: 1.125em;
   }
 
-  /* line 150, ../sass/_mediaQueries_tablet.scss */
+  /* line 41, ../sass/_mediaQueries_tablet.scss */
+  .positionRelative {
+    position: relative;
+  }
+
+  /* line 43, ../sass/_mediaQueries_tablet.scss */
+  .fold {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 48, ../sass/_mediaQueries_tablet.scss */
+  .centered {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 53, ../sass/_mediaQueries_tablet.scss */
+  .orangeBG {
+    background: #FF8700;
+  }
+
+  /* line 55, ../sass/_mediaQueries_tablet.scss */
+  .photoCenter {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 60, ../sass/_mediaQueries_tablet.scss */
+  .input-and-selectList {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* line 66, ../sass/_mediaQueries_tablet.scss */
+  .style input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 73, ../sass/_mediaQueries_tablet.scss */
   .style select[type="drop-down"] {
     padding: 10px;
     border: none;
@@ -589,11 +531,11 @@
     transition: border 0.3s;
   }
 
-  /* line 157, ../sass/_mediaQueries_tablet.scss */
+  /* line 80, ../sass/_mediaQueries_tablet.scss */
   .footer-links {
     list-style: none;
   }
-  /* line 160, ../sass/_mediaQueries_tablet.scss */
+  /* line 83, ../sass/_mediaQueries_tablet.scss */
   .footer-links li {
     float: left;
     margin-left: 10px;
@@ -601,66 +543,17 @@
     font-size: 0.75em;
   }
 
-  /* line 168, ../sass/_mediaQueries_tablet.scss */
+  /* line 91, ../sass/_mediaQueries_tablet.scss */
   .links {
     margin-top: 5px;
   }
-}
-@media (min-width: 340px) and (max-width: 767px) {
-  /* line 5, ../sass/_mediaQueries_mobile.scss */
+
+  /* line 93, ../sass/_mediaQueries_tablet.scss */
   #navigation {
-    visibility: hidden;
+    display: none;
   }
 
-  /* line 9, ../sass/_mediaQueries_mobile.scss */
-  .wrapper {
-    margin: 0 auto;
-  }
-
-  /* line 13, ../sass/_mediaQueries_mobile.scss */
-  h1 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.25em;
-    font-weight: lighter;
-  }
-
-  /* line 19, ../sass/_mediaQueries_mobile.scss */
-  p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25em;
-    text-align: center;
-  }
-
-  /* line 25, ../sass/_mediaQueries_mobile.scss */
-  h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.75em;
-  }
-
-  /* line 30, ../sass/_mediaQueries_mobile.scss */
-  h3 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.125em;
-  }
-
-  /* line 35, ../sass/_mediaQueries_mobile.scss */
-  .fold {
-    width: 100%;
-    height: auto;
-  }
-
-  /* line 40, ../sass/_mediaQueries_mobile.scss */
-  .centered {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  /* line 45, ../sass/_mediaQueries_mobile.scss */
-  .orangeBG {
-    background: #FF8700;
-  }
-
-  /* line 49, ../sass/_mediaQueries_mobile.scss */
+  /* line 95, ../sass/_mediaQueries_tablet.scss */
   #content1 {
     width: 500px;
     text-align: center;
@@ -668,71 +561,96 @@
     margin: 0 auto;
   }
 
-  /* line 56, ../sass/_mediaQueries_mobile.scss */
-  .photoCenter {
-    display: block;
-    margin: 0 auto;
-  }
-
-  /* line 61, ../sass/_mediaQueries_mobile.scss */
+  /* line 102, ../sass/_mediaQueries_tablet.scss */
   #content2 {
-    padding-top: 190px;
+    width: 200px;
+    padding-top: 300px;
   }
 
-  /* line 65, ../sass/_mediaQueries_mobile.scss */
+  /* line 107, ../sass/_mediaQueries_tablet.scss */
   #content2Text {
-    width: 300px;
-    padding-bottom: 50px;
-    margin: 0 auto;
-    text-align: center;
+    width: 400px;
+    right: -200px;
+    top: -300px;
   }
 
-  /* line 72, ../sass/_mediaQueries_mobile.scss */
+  /* line 113, ../sass/_mediaQueries_tablet.scss */
   #content3 {
     padding-top: 100px;
     padding-bottom: 150px;
-    padding-left: 80px;
+    padding-left: 60px;
   }
 
-  /* line 78, ../sass/_mediaQueries_mobile.scss */
+  /* line 119, ../sass/_mediaQueries_tablet.scss */
   #backgroundPhoto {
-    background-image: url("/responsive/images/image4.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("/responsive/images/image3.png") right no-repeat;
     background-size: cover;
   }
 
-  /* line 85, ../sass/_mediaQueries_mobile.scss */
+  /* line 124, ../sass/_mediaQueries_tablet.scss */
   #backgroundPhoto2 {
-    background-image: url("/responsive/images/Rectangle 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("/responsive/images/Rectangle 1.png") center no-repeat;
     background-size: cover;
   }
 
-  /* line 92, ../sass/_mediaQueries_mobile.scss */
+  /* line 129, ../sass/_mediaQueries_tablet.scss */
   #content3Text {
     width: 300px;
   }
 
-  /* line 96, ../sass/_mediaQueries_mobile.scss */
+  /* line 131, ../sass/_mediaQueries_tablet.scss */
   #content4 {
     width: 200px;
     padding-top: 190px;
-    position: relative;
-    top: -550px;
-    margin: 0 auto;
+    right: -460px;
+    top: -340px;
   }
 
-  /* line 104, ../sass/_mediaQueries_mobile.scss */
+  /* line 138, ../sass/_mediaQueries_tablet.scss */
   #content4Text {
     width: 400px;
-    padding-top: 400px;
-    margin-left: 50px;
+    padding-top: 200px;
+    margin-left: 60px;
+  }
+}
+@media (min-width: 340px) and (max-width: 640px) {
+  /* line 5, ../sass/_mediaQueries_mobile.scss */
+  h1, h2, h3, p {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  /* line 6, ../sass/_mediaQueries_mobile.scss */
+  h2, h3 {
+    font-weight: normal;
+  }
+
+  /* line 7, ../sass/_mediaQueries_mobile.scss */
+  h1, p {
+    font-weight: lighter;
+  }
+
+  /* line 8, ../sass/_mediaQueries_mobile.scss */
+  h1 {
+    font-size: 2.25em;
+  }
+
+  /* line 9, ../sass/_mediaQueries_mobile.scss */
+  p {
+    font-size: 1.25em;
     text-align: center;
   }
 
-  /* line 111, ../sass/_mediaQueries_mobile.scss */
+  /* line 13, ../sass/_mediaQueries_mobile.scss */
+  h2 {
+    font-size: 1.75em;
+  }
+
+  /* line 14, ../sass/_mediaQueries_mobile.scss */
+  h3 {
+    font-size: 1.125em;
+  }
+
+  /* line 16, ../sass/_mediaQueries_mobile.scss */
   section {
     width: 500px;
     margin-bottom: 250px;
@@ -740,14 +658,7 @@
     margin-right: auto;
   }
 
-  /* line 118, ../sass/_mediaQueries_mobile.scss */
-  .input-and-selectList {
-    list-style: none;
-    margin-top: 30px;
-    padding-left: 0px;
-  }
-
-  /* line 124, ../sass/_mediaQueries_mobile.scss */
+  /* line 23, ../sass/_mediaQueries_mobile.scss */
   input[type="text"] {
     display: block;
     margin: 0;
@@ -759,15 +670,7 @@
     font-size: 1.125em;
   }
 
-  /* line 135, ../sass/_mediaQueries_mobile.scss */
-  .style input[type="text"] {
-    padding: 10px;
-    border: none;
-    border-bottom: solid 1px #c9c9c9;
-    transition: border 0.3s;
-  }
-
-  /* line 142, ../sass/_mediaQueries_mobile.scss */
+  /* line 34, ../sass/_mediaQueries_mobile.scss */
   select[type="drop-down"] {
     display: block;
     margin-top: 30px;
@@ -779,7 +682,50 @@
     border-radius: none;
   }
 
-  /* line 153, ../sass/_mediaQueries_mobile.scss */
+  /* line 45, ../sass/_mediaQueries_mobile.scss */
+  .positionRelative {
+    position: relative;
+  }
+
+  /* line 47, ../sass/_mediaQueries_mobile.scss */
+  .fold {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 52, ../sass/_mediaQueries_mobile.scss */
+  .centered {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 57, ../sass/_mediaQueries_mobile.scss */
+  .orangeBG {
+    background: #FF8700;
+  }
+
+  /* line 59, ../sass/_mediaQueries_mobile.scss */
+  .photoCenter {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 64, ../sass/_mediaQueries_mobile.scss */
+  .input-and-selectList {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* line 70, ../sass/_mediaQueries_mobile.scss */
+  .style input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  /* line 77, ../sass/_mediaQueries_mobile.scss */
   .style select[type="drop-down"] {
     padding: 10px;
     border: none;
@@ -787,11 +733,11 @@
     transition: border 0.3s;
   }
 
-  /* line 160, ../sass/_mediaQueries_mobile.scss */
+  /* line 84, ../sass/_mediaQueries_mobile.scss */
   .footer-links {
     list-style: none;
   }
-  /* line 163, ../sass/_mediaQueries_mobile.scss */
+  /* line 87, ../sass/_mediaQueries_mobile.scss */
   .footer-links li {
     float: left;
     margin-left: 10px;
@@ -799,12 +745,78 @@
     font-size: 0.75em;
   }
 
-  /* line 171, ../sass/_mediaQueries_mobile.scss */
+  /* line 95, ../sass/_mediaQueries_mobile.scss */
   .links {
     margin-top: 5px;
   }
+
+  /* line 97, ../sass/_mediaQueries_mobile.scss */
+  #navigation {
+    display: none;
+  }
+
+  /* line 99, ../sass/_mediaQueries_mobile.scss */
+  #content1 {
+    width: 500px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+
+  /* line 106, ../sass/_mediaQueries_mobile.scss */
+  #content2 {
+    padding-top: 190px;
+  }
+
+  /* line 108, ../sass/_mediaQueries_mobile.scss */
+  #content2Text {
+    width: 300px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* line 115, ../sass/_mediaQueries_mobile.scss */
+  #content3 {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+  }
+
+  /* line 121, ../sass/_mediaQueries_mobile.scss */
+  #backgroundPhoto {
+    background-image: url("/responsive/images/image4.png") center no-repeat;
+    background-size: cover;
+  }
+
+  /* line 126, ../sass/_mediaQueries_mobile.scss */
+  #backgroundPhoto2 {
+    background-image: url("/responsive/images/Rectangle 1.png") center no-repeat;
+    background-size: cover;
+  }
+
+  /* line 131, ../sass/_mediaQueries_mobile.scss */
+  #content3Text {
+    width: 300px;
+  }
+
+  /* line 133, ../sass/_mediaQueries_mobile.scss */
+  #content4 {
+    width: 200px;
+    padding-top: 190px;
+    top: -550px;
+    margin: 0 auto;
+  }
+
+  /* line 140, ../sass/_mediaQueries_mobile.scss */
+  #content4Text {
+    width: 400px;
+    padding-top: 400px;
+    margin-left: 50px;
+    text-align: center;
+  }
 }
-/* line 8, ../sass/styles.scss */
+/* line 7, ../sass/styles.scss */
 body {
   margin: 0;
   width: 100%;
@@ -814,9 +826,14 @@ body {
   overflow-x: hidden;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 16, ../sass/styles.scss */
 #navigation {
   position: fixed;
   right: 0;
   margin-right: 30px;
+}
+
+/* line 22, ../sass/styles.scss */
+.wappper {
+  margin: 0 auto;
 }
