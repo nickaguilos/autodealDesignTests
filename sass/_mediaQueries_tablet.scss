@@ -117,8 +117,9 @@
 	}
 
 	#backgroundPhoto {
-		background-image: url('/responsive/images/image3.png') right no-repeat;
+		background: url('/responsive/images/image3.png') center no-repeat;
 		background-size: cover;
+		height: 820px;
 	}
 
 	#backgroundPhoto2 {

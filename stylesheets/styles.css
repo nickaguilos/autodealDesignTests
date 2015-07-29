@@ -583,22 +583,23 @@
 
   /* line 119, ../sass/_mediaQueries_tablet.scss */
   #backgroundPhoto {
-    background-image: url("/responsive/images/image3.png") right no-repeat;
+    background: url("/responsive/images/image3.png") center no-repeat;
     background-size: cover;
+    height: 820px;
   }
 
-  /* line 124, ../sass/_mediaQueries_tablet.scss */
+  /* line 125, ../sass/_mediaQueries_tablet.scss */
   #backgroundPhoto2 {
     background-image: url("/responsive/images/Rectangle 1.png") center no-repeat;
     background-size: cover;
   }
 
-  /* line 129, ../sass/_mediaQueries_tablet.scss */
+  /* line 130, ../sass/_mediaQueries_tablet.scss */
   #content3Text {
     width: 300px;
   }
 
-  /* line 131, ../sass/_mediaQueries_tablet.scss */
+  /* line 132, ../sass/_mediaQueries_tablet.scss */
   #content4 {
     width: 200px;
     padding-top: 190px;
@@ -606,7 +607,7 @@
     top: -340px;
   }
 
-  /* line 138, ../sass/_mediaQueries_tablet.scss */
+  /* line 139, ../sass/_mediaQueries_tablet.scss */
   #content4Text {
     width: 400px;
     padding-top: 200px;
@@ -637,20 +638,19 @@
   /* line 9, ../sass/_mediaQueries_mobile.scss */
   p {
     font-size: 1.25em;
-    text-align: center;
   }
 
-  /* line 13, ../sass/_mediaQueries_mobile.scss */
+  /* line 10, ../sass/_mediaQueries_mobile.scss */
   h2 {
     font-size: 1.75em;
   }
 
-  /* line 14, ../sass/_mediaQueries_mobile.scss */
+  /* line 11, ../sass/_mediaQueries_mobile.scss */
   h3 {
     font-size: 1.125em;
   }
 
-  /* line 16, ../sass/_mediaQueries_mobile.scss */
+  /* line 13, ../sass/_mediaQueries_mobile.scss */
   section {
     width: 500px;
     margin-bottom: 250px;
@@ -658,7 +658,7 @@
     margin-right: auto;
   }
 
-  /* line 23, ../sass/_mediaQueries_mobile.scss */
+  /* line 20, ../sass/_mediaQueries_mobile.scss */
   input[type="text"] {
     display: block;
     margin: 0;
@@ -670,7 +670,7 @@
     font-size: 1.125em;
   }
 
-  /* line 34, ../sass/_mediaQueries_mobile.scss */
+  /* line 31, ../sass/_mediaQueries_mobile.scss */
   select[type="drop-down"] {
     display: block;
     margin-top: 30px;
@@ -682,42 +682,42 @@
     border-radius: none;
   }
 
-  /* line 45, ../sass/_mediaQueries_mobile.scss */
+  /* line 42, ../sass/_mediaQueries_mobile.scss */
   .positionRelative {
     position: relative;
   }
 
-  /* line 47, ../sass/_mediaQueries_mobile.scss */
+  /* line 44, ../sass/_mediaQueries_mobile.scss */
   .fold {
     width: 100%;
     height: auto;
   }
 
-  /* line 52, ../sass/_mediaQueries_mobile.scss */
+  /* line 49, ../sass/_mediaQueries_mobile.scss */
   .centered {
     max-width: 80%;
     margin: 0 auto;
   }
 
-  /* line 57, ../sass/_mediaQueries_mobile.scss */
+  /* line 54, ../sass/_mediaQueries_mobile.scss */
   .orangeBG {
     background: #FF8700;
   }
 
-  /* line 59, ../sass/_mediaQueries_mobile.scss */
+  /* line 56, ../sass/_mediaQueries_mobile.scss */
   .photoCenter {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 64, ../sass/_mediaQueries_mobile.scss */
+  /* line 61, ../sass/_mediaQueries_mobile.scss */
   .input-and-selectList {
     list-style: none;
     margin-top: 30px;
     padding-left: 0px;
   }
 
-  /* line 70, ../sass/_mediaQueries_mobile.scss */
+  /* line 67, ../sass/_mediaQueries_mobile.scss */
   .style input[type="text"] {
     padding: 10px;
     border: none;
@@ -725,7 +725,7 @@
     transition: border 0.3s;
   }
 
-  /* line 77, ../sass/_mediaQueries_mobile.scss */
+  /* line 74, ../sass/_mediaQueries_mobile.scss */
   .style select[type="drop-down"] {
     padding: 10px;
     border: none;
@@ -733,11 +733,11 @@
     transition: border 0.3s;
   }
 
-  /* line 84, ../sass/_mediaQueries_mobile.scss */
+  /* line 81, ../sass/_mediaQueries_mobile.scss */
   .footer-links {
     list-style: none;
   }
-  /* line 87, ../sass/_mediaQueries_mobile.scss */
+  /* line 84, ../sass/_mediaQueries_mobile.scss */
   .footer-links li {
     float: left;
     margin-left: 10px;
@@ -745,17 +745,17 @@
     font-size: 0.75em;
   }
 
-  /* line 95, ../sass/_mediaQueries_mobile.scss */
+  /* line 92, ../sass/_mediaQueries_mobile.scss */
   .links {
     margin-top: 5px;
   }
 
-  /* line 97, ../sass/_mediaQueries_mobile.scss */
+  /* line 94, ../sass/_mediaQueries_mobile.scss */
   #navigation {
     display: none;
   }
 
-  /* line 99, ../sass/_mediaQueries_mobile.scss */
+  /* line 96, ../sass/_mediaQueries_mobile.scss */
   #content1 {
     width: 500px;
     text-align: center;
@@ -763,12 +763,12 @@
     margin: 0 auto;
   }
 
-  /* line 106, ../sass/_mediaQueries_mobile.scss */
+  /* line 103, ../sass/_mediaQueries_mobile.scss */
   #content2 {
     padding-top: 190px;
   }
 
-  /* line 108, ../sass/_mediaQueries_mobile.scss */
+  /* line 105, ../sass/_mediaQueries_mobile.scss */
   #content2Text {
     width: 300px;
     padding-bottom: 50px;
@@ -776,31 +776,31 @@
     text-align: center;
   }
 
-  /* line 115, ../sass/_mediaQueries_mobile.scss */
+  /* line 112, ../sass/_mediaQueries_mobile.scss */
   #content3 {
     padding-top: 100px;
     padding-bottom: 150px;
     padding-left: 80px;
   }
 
-  /* line 121, ../sass/_mediaQueries_mobile.scss */
+  /* line 118, ../sass/_mediaQueries_mobile.scss */
   #backgroundPhoto {
-    background-image: url("/responsive/images/image4.png") center no-repeat;
-    background-size: cover;
+    background: url("/responsive/images/image4.png") bottom right no-repeat;
+    height: 680px;
   }
 
-  /* line 126, ../sass/_mediaQueries_mobile.scss */
+  /* line 123, ../sass/_mediaQueries_mobile.scss */
   #backgroundPhoto2 {
     background-image: url("/responsive/images/Rectangle 1.png") center no-repeat;
     background-size: cover;
   }
 
-  /* line 131, ../sass/_mediaQueries_mobile.scss */
+  /* line 128, ../sass/_mediaQueries_mobile.scss */
   #content3Text {
     width: 300px;
   }
 
-  /* line 133, ../sass/_mediaQueries_mobile.scss */
+  /* line 130, ../sass/_mediaQueries_mobile.scss */
   #content4 {
     width: 200px;
     padding-top: 190px;
@@ -808,7 +808,7 @@
     margin: 0 auto;
   }
 
-  /* line 140, ../sass/_mediaQueries_mobile.scss */
+  /* line 137, ../sass/_mediaQueries_mobile.scss */
   #content4Text {
     width: 400px;
     padding-top: 400px;

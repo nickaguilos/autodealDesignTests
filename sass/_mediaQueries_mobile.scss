@@ -6,10 +6,7 @@
 	h2,h3 { font-weight: normal; }
 	h1,p { font-weight: lighter; }
 	h1 { font-size: 2.25em; }
-	p {
-		font-size: 1.25em;
-		text-align: center;
-	}
+	p { font-size: 1.25em; }
 	h2 { font-size: 1.75em; }
 	h3 { font-size: 1.125em; }
 
@@ -119,8 +116,8 @@
 	}
 
 	#backgroundPhoto {
-		background-image: url('/responsive/images/image4.png') center no-repeat;
-		background-size: cover;
+		background: url('/responsive/images/image4.png') bottom right no-repeat;
+		height: 680px;
 	}
 
 	#backgroundPhoto2 {
