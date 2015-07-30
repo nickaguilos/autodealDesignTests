@@ -16,7 +16,8 @@
             padding: 4px;
             font-size: 12px;
             display: none;
-            transition: 0.3s;
+            /*max-width: 150%;*/
+            white-space: nowrap;
         }
 
     </style>
@@ -28,19 +29,21 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script>
         $(document).ready(function(){
+            // Initialize variables
             var tooltip = $('.withTooltip');
             var tooltipContent = tooltip.attr('title');
             var tooltipProper = $('.tooltipProper');
 
+            // Dynamically add relative positioning to element with tooltip
             tooltip.css('position', 'relative');
-            console.log(tooltipContent);
+            console.log(tooltipContent); //Log
+
 
             tooltip.append("<div class='tooltipProper'>"+tooltipContent+"</div>")
 
-            tooltip.click(function(e){
-                e.preventDefault();
-                console.log('clicked');
-                $(this).children(tooltipProper).toggle();
+            tooltip.hover(function(event){
+                $(this).children(tooltipProper).fadeToggle(100);
+                $(this).removeAttr('title');
             });
         });
     </script>
