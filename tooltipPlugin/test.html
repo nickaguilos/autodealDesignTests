@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tooltip Test</title>
+
+    <style>
+        .withTooltip {
+            display: inline-block;
+        }
+
+        .tooltipProper {
+            position: absolute;
+            background: #222;
+            color: white;
+            padding: 4px;
+            font-size: 12px;
+            display: none;
+            transition: 0.3s;
+        }
+
+    </style>
+</head>
+<body>
+        
+    <span class="withTooltip" title="This is a tooltip text">I have a tooltip</span>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var tooltip = $('.withTooltip');
+            var tooltipContent = tooltip.attr('title');
+            var tooltipProper = $('.tooltipProper');
+
+            tooltip.css('position', 'relative');
+            console.log(tooltipContent);
+
+            tooltip.append("<div class='tooltipProper'>"+tooltipContent+"</div>")
+
+            tooltip.click(function(e){
+                e.preventDefault();
+                console.log('clicked');
+                $(this).children(tooltipProper).toggle();
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+@import "mediaQuery_desktop";
+
+@media screen and (min-width: 768px) and (max-width: 980px)  {
+    $font: "Open Sans", sans-serif;
+    $titlefontsize: 28px;
+    $introfont: 36px;
+    $contentfontsize: 20px;
+
+    .wrapper {
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: $font;
+        font-size: $introfont;
+    }
+
+    p {
+        font-family: $font;
+        font-size: $contentfontsize;
+    }
+
+    h2 {
+        font-family: $font;
+        font-size: $titlefontsize;
+    }
+
+    h3 {
+        font-family: $font;
+        font-size: 18px;
+    }
+
+    .fold {
+        width: 100%;
+        height: auto;
+    }
+
+    .centered {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .orangeBG {
+        background: #FF8700;
+    }
+
+    #content1 {
+        width: 500px;
+        text-align: center;
+        padding-top: 100px;
+        margin: 0 auto;
+    }
+
+    .photoCenter {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #content2 {
+        width: 200px;
+        padding-top: 190px;
+    }
+
+    #content2Text {
+        width: 400px;
+        position: relative;
+        right: -200px;
+        top: -230px;
+    }
+
+    #content3 {
+        padding-top: 20px;
+        padding-left: 160px;
+        position: relative;
+    }
+
+    .imagefloat {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #content3Text {
+        width: 350px;
+    }
+
+    #content4 {
+        width:  200px;
+        padding-top: 190px;
+        position: relative;
+        right: -400px;
+        top: -340px;
+    }
+
+    #content4Text {
+        width: 400px;
+        padding-top: 400px;
+        margin-left: 50px;
+    }
+
+    section {
+        width: 500px;
+        margin-top: 100px;
+        margin-bottom: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input-and-selectList {
+        list-style: none;
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+
+    input[type="text"] {
+          display: block;
+          margin: 0;
+          width: 100%;
+          appearance: none;
+          box-shadow: none;
+          border-radius: none;
+    }
+
+    .style input[type="text"] {
+        padding: 10px;
+        border: none;
+        border-bottom: solid 1px #c9c9c9;
+        transition: border 0.3s;
+    }
+
+    select[type="drop-down"] {
+          display: block;
+          margin-top: 30px;
+          width: 100%;
+          appearance: none;
+          box-shadow: none;
+          border-radius: none;
+    }
+
+    .style select[type="drop-down"] {
+          padding: 10px;
+          border: none;
+          border-bottom: solid 2px #c9c9c9;
+          transition: border 0.3s;
+    }
+
+    .footer-links {
+        list-style: none;
+
+        li {
+            float: left;
+            margin-left: 10px;
+            font-size: 12px;
+        }
+    }
+
+    .links {
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    $font: "Open Sans", sans-serif;
+    $titlefontsize: 28px;
+    $introfont: 36px;
+    $contentfontsize: 20px;
+
+    .wrapper {
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: $font;
+        font-size: $introfont;
+    }
+
+    p {
+        font-family: $font;
+        font-size: $contentfontsize;
+    }
+
+    h2 {
+        font-family: $font;
+        font-size: $titlefontsize;
+    }
+
+    h3 {
+        font-family: $font;
+        font-size: 18px;
+    }
+
+    .fold {
+        width: 100%;
+        height: auto;
+    }
+
+    .centered {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .orangeBG {
+        background: #FF8700;
+    }
+
+    #content1 {
+        width: 500px;
+        text-align: center;
+        padding-top: 100px;
+        margin: 0 auto;
+    }
+
+    .photoCenter {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #content2 {
+        padding-top: 190px;
+    }
+
+    #content2Text {
+        width: 300px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #content3 {
+        padding-top: 20px;
+        padding-left: 160px;
+        position: relative;
+    }
+
+    .imagefloat {
+        position: absolute;
+        top: 150px;
+        right: -100px;
+    }
+
+    #content3Text {
+        width: 250px;
+    }
+
+    #content4 {
+        width:  200px;
+        padding-top: 190px;
+        position: relative;
+        top: -550px;
+        margin: 0 auto;
+    }
+
+    #content4Text {
+        width: 400px;
+        padding-top: 500px;
+        margin-left: 50px;
+    }
+
+    section {
+        width: 500px;
+        margin-bottom: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input-and-selectList {
+        list-style: none;
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+
+    input[type="text"] {
+          display: block;
+          margin: 0;
+          width: 100%;
+          appearance: none;
+          box-shadow: none;
+          border-radius: none;
+    }
+
+    .style input[type="text"] {
+        padding: 10px;
+        border: none;
+        font-family: $font;
+          font-size: $contentfontsize;
+        border-bottom: solid 1px #c9c9c9;
+        transition: border 0.3s;
+    }
+
+    select[type="drop-down"] {
+          display: block;
+          margin-top: 30px;
+          width: 100%;
+          font-family: $font;
+          font-size: $contentfontsize;
+          appearance: none;
+          box-shadow: none;
+          border-radius: none;
+    }
+
+    .style select[type="drop-down"] {
+          padding: 10px;
+          border: none;
+          border-bottom: solid 2px #c9c9c9;
+          transition: border 0.3s;
+    }
+
+    .footer-links {
+        list-style: none;
+
+        li {
+            float: left;
+            margin-left: 10px;
+            font-family: $font;
+            font-size: 12px;
+        }
+    }
+
+    .links {
+        margin-top: 5px;
+    }
+
+}
